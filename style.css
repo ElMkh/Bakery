@@ -1,0 +1,409 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+h2{
+
+    font-size: 40px;
+    font-weight: 100;
+
+}
+/* ---------------------------------------------------------home page style --------------------------------------------------*/
+.home-page{
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+/* navbar style */
+.navbar{
+    padding: 20px 0px ;
+    /* ! ؟؟؟ ممكن حضرتك تعرفيني ازاي اثبت النافيجيشن بار وانا بسكرول*/
+
+}
+.navbar .log{
+    float: left;
+}
+.navbar img{
+    width: 150px;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.navbar a{
+    color: white;
+    font-weight: 400 ;
+    text-decoration: none;
+    font-size: large;
+}
+
+.clr{
+    clear: both;
+}
+
+/* information style */
+.information{
+    text-align: center;
+    margin: 200px auto;
+}
+.information h1{
+    margin: 20px 0px;
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+
+}
+.information p{
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+    width: 70%;
+    margin: auto;
+}
+
+
+.but{
+    display: inline-block;
+    padding: 30px 3px;
+}
+.but button{
+    padding: 15px 30px;
+    color: white;
+    background-color:#8e7754 ;
+    border-radius: 4px;
+    transition-duration: 0.3ms;
+}
+.but button:hover{
+    background-color: white;
+    color: black;
+}
+.but.contact-us button{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+/*
+------------------------------------------------------------------------who we are page style---------------------------------------------
+ */
+
+.who-we-are{
+    background-color: white;
+    /* height: 100vh; */
+}
+
+
+.photo-bake{
+    padding-left: 50px;
+
+}
+.card-2{
+    width: 49%; 
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.bake img{
+    width: 100%;
+    padding: 15px;
+}
+.photo-bake li img{
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.photo-bake ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.photo-bake h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.photo-bake p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+.photo-bake li{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* 
+---------------------------------------------------------our location page style ------------------------------------------------------                  
+*/
+
+
+.our-locatin{
+    background-color: #F8F8F8;
+    /* height: 100vh; */
+}
+
+.content{
+    padding: 120px 0px ;
+}
+.paragraph{
+    padding: 10px ;
+    
+}
+.paragraph h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+.paragraph p{
+    padding: 15px 25px 10px 0px;
+   
+}
+
+.card{
+        /* !  ليه العرض مش راضي يجي 50% يا باشمهندسه؟؟ هل علشان المسافة اللي بيعملها display:inline-block */
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.card img{
+    width: 100%;
+    padding: 25px;
+}
+
+
+/* -----------------------------------------------our baking page style----------------------------------------------- */
+.our-baking{
+    background-color: white;
+    /* height: 100vh; */
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.title p{
+    padding-top: 15px;
+
+}
+
+.kard{
+    padding-top: 20px;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    /* padding: 10px; */
+}
+
+.kard img{
+    width: 100%;
+}
+.kard div{
+    text-align: center;
+    /* padding: 10px; */
+}
+.kard h3{
+    padding: 10px;
+}
+/* ------------------------------------------Contact Information Page style----------------------------------------- */
+
+.contact{
+    background-color:#F8F8F8 ;
+    /* height: 100vh; */
+    /* padding: 150px 0px; */
+}
+
+.cont{
+    float: left;
+    width: 50%;
+    padding:120px 20px;
+}
+.map{
+    float: right;
+    width: 50%;
+    padding:120px 20px;
+}
+
+.cont img{
+    width: 50px;
+    background-color: #8E7754;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.cont ul li{
+    list-style-type: none;
+    font-size: large;
+    font-weight: 100;    
+}
+.cont ul{
+    padding-left: 0px;
+
+}
+.cont h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.cont h3{
+    margin: 30px 0px;
+    font-weight: 100;
+    font-size: large;
+}
+.cont p{
+    font-size: large;
+    font-weight: 100;
+}
+.ico{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ico-2{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ico-3{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ico-4{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cont span{
+    padding-left: 10px;
+}
+
+
+/* ----------------------------------------------- footer page style ---------------------------------------------- */
+
+/* first half */
+
+.footer-page{
+    /* height: 100vh; */
+    background-color: #403D38;
+
+}
+
+
+/* .coo{
+    background-color: #403D38;
+} */
+.card-3{
+    float: left;
+    width: 25%;
+    padding:50px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777570 ;
+    margin-bottom: 20px;
+
+}
+.card-3 img{
+    width: 20px;
+}
+
+.card-3 p{
+    padding-top: 15px;
+}
+
+.card-3 ul li{
+    list-style-type: none;
+}
+.card-3 ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+.card-3 .hori{
+    color: #777570;
+}
+.card-3 ul a{
+    color: #777570;
+    text-decoration: none;
+    padding-left: 10px;
+}
+/* .card-3 span.van{
+    padding-left: 15px;
+    margin: 0px;
+    display: inline-block;
+} */
+.van{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* !باشممهندسه محتاج اجيب العنوان علي بعضه ف جنب وعلامة الخريطة في جمب ؛اعملها ازاي لو سمحتي ؟؟ */
+.van-2{
+    display: inline-block;
+    vertical-align: middle;
+}
+.van-3{
+    display: inline-block;
+    vertical-align: middle;
+}
+.van-4{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* second half */
+.dark{
+    text-align: center;
+    background-color: #353330;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.dark ul{
+    padding-left: 0px;
+}
+.dark img{
+    width: 350px;
+}
+.dark ul li{
+    display: inline-block;
+    padding: 2px;
+}
+.dark ul li img{
+    width: 40px;
+    border-radius: 50%;
+    transition-duration: 0.3ms;
+    background-color: #57534d;
+}
+
+.face:hover{
+    background-color: rgb(86, 86, 225);
+}
+.goo:hover{
+    background-color: rgb(232, 64, 64);
+}
+.lin:hover{
+    background-color: rgb(47, 170, 246);
+}
+.twi:hover{
+    background-color: skyblue;
+}
+
+
+.dark p{
+    font-size: small;
+    font-weight: 50;
+    color: #777570;
+}
+
